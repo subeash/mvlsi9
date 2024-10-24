@@ -1,9 +1,9 @@
 ## References
 #### Books
-1) Christian C. Enz and Eric A. Vittoz, Charge-Based MOS Transistor Modeling: The EKV model for low-power and RF IC design, Wiley, 2006
+1) S.M. Sze and Kwok K. Ng, Physics of Semiconductor Devices, 3rd Edition, Wiley, 2007
 
-2) S. M. Sze and Kwok K. Ng, Physics of Semiconductor Devices, Wiley, 2006
+2) Yuan Taur and Tak H. Ning, Fundamentals of Modern VLSI Devices, 2nd Edition, Cambridge University Press, 2009
 
 #### Video Lectures
-- [MOS capacitor](https://www.youtube.com/watch?v=Gwyi2brc0QQ)
+- [MOSCAP Capacitance-Voltage (CV) Characteristics](https://www.youtube.com/watch?v=emrtz-sC9Pc)
 
