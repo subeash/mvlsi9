@@ -2,115 +2,117 @@
   {
 	  "version": 2.0,
   "questions": [
+
     {
-      "question": "1. What does the Gummel plot method characterize in a BJT?",
-      "answers": {
-        "a": "Voltage gain",
-        "b": "Current gain",
-        "c": "Power gain",
-        "d": "Frequency gain"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+        "question": "1. What does the accumulation region in the C-V curve of a PMOS capacitor indicate?",
+        "answers": {
+            "a": "Formation of a depletion layer",
+            "b": "Buildup of majority carriers near the oxide interface",
+            "c": "Presence of minority carriers",
+            "d": "Breakdown of the oxide layer"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "2. The Gummel plot is used to analyze the relationship between which of the following parameters?",
-      "answers": {
-        "a": "Base-emitter voltage (V_BE) and collector current (I_C)",
-        "b": "Base current (I_B) and collector current (I_C)",
-        "c": "Emitter current (I_E) and base current (I_B)",
-        "d": "Base-emitter voltage (V_BE) and base current (I_B)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+        "question": "2. How does temperature affect the threshold voltage (V_T) of a PMOS capacitor?",
+        "answers": {
+            "a": "V_T increases with increasing temperature",
+            "b": "V_T decreases with increasing temperature",
+            "c": "V_T remains unaffected by temperature",
+            "d": "V_T changes unpredictably with temperature"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "3. What is typically plotted on the y-axis in a Gummel plot?",
-      "answers": {
-        "a": "Base current (I_B)",
-        "b": "Collector current (I_C)",
-        "c": "Base-emitter voltage (V_BE)",
-        "d": "Saturation current (I_S)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+        "question": "3. In C-V characterization, what is the main purpose of using high-frequency measurements?",
+        "answers": {
+            "a": "To measure the oxide breakdown voltage",
+            "b": "To avoid the response of minority carriers",
+            "c": "To enhance the accumulation capacitance",
+            "d": "To increase the sensitivity of the measurements"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "4. In the Gummel plot, the relationship between collector current (I_C) and base-emitter voltage (V_BE) shows what type of relationship?",
-      "answers": {
-        "a": "Exponential",
-        "b": "Linear",
-        "c": "Quadratic",
-        "d": "Logarithmic"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+        "question": "4. What happens to the flat-band voltage if the gate material work function is increased?",
+        "answers": {
+            "a": "The flat-band voltage increases",
+            "b": "The flat-band voltage decreases",
+            "c": "The flat-band voltage remains constant",
+            "d": "The flat-band voltage oscillates"
+        },
+        "correctAnswer": "a",
+        "difficulty": "advanced"
     },
     {
-      "question": "5. What does the slope of the collector current (I_C) versus base-emitter voltage (V_BE) plot represent?",
-      "answers": {
-        "a": "Saturation current (I_S)",
-        "b": "Current gain (\u03b2)",
-        "c": "Emitter efficiency",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+        "question": "5. What is the effect of interface trap charges on the C-V curve of a PMOS capacitor?",
+        "answers": {
+            "a": "It causes a shift in the C-V curve",
+            "b": "It increases the oxide capacitance",
+            "c": "It eliminates the inversion region",
+            "d": "It has no effect on the C-V curve"
+        },
+        "correctAnswer": "a",
+        "difficulty": "advanced"
     },
     {
-      "question": "6. How does the Gummel plot help in BJT characterization?",
-      "answers": {
-        "a": "By measuring thermal resistance",
-        "b": "By extracting parameters like saturation current and current gain",
-        "c": "By measuring power dissipation",
-        "d": "By analyzing frequency response"
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+        "question": "6. Which parameter is directly measured from the C-V curve in accumulation?",
+        "answers": {
+            "a": "Threshold voltage",
+            "b": "Oxide capacitance",
+            "c": "Doping concentration",
+            "d": "Flat-band voltage"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "7. What parameter of a BJT is directly related to the ideality factor in the Gummel plot?",
-      "answers": {
-        "a": "Saturation current (I_S)",
-        "b": "Base-emitter voltage (V_BE)",
-        "c": "Emitter efficiency",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+        "question": "7. What kind of shift in the C-V curve indicates the presence of fixed oxide charges?",
+        "answers": {
+            "a": "A vertical shift",
+            "b": "A horizontal shift",
+            "c": "A narrowing of the curve",
+            "d": "An expansion of the curve"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "8. How can you determine the current gain (\u03b2) of a BJT from the Gummel plot?",
-      "answers": {
-        "a": "By calculating the slope of the base current (I_B) versus base-emitter voltage (V_BE) plot",
-        "b": "By calculating the slope of the collector current (I_C) versus base-emitter voltage (V_BE) plot",
-        "c": "By dividing base current (I_B) by collector current (I_C)",
-        "d": "By dividing collector current (I_C) by base current (I_B)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "advanced"
+        "question": "8. In a PMOS C-V characterization, what does a higher inversion capacitance indicate?",
+        "answers": {
+            "a": "A thicker oxide layer",
+            "b": "Higher frequency of measurement",
+            "c": "Higher doping concentration",
+            "d": "A lower flat-band voltage"
+        },
+        "correctAnswer": "c",
+        "difficulty": "intermediate"
     },
     {
-      "question": "9. What does the term 'early effect' refer to in the context of BJTs?",
-      "answers": {
-        "a": "Temperature dependence of collector current",
-        "b": "Voltage dependence of base current",
-        "c": "Voltage dependence of collector current",
-        "d": "Temperature dependence of base current"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+        "question": "9. How can one distinguish between mobile ion contamination and interface trap charges in a C-V curve?",
+        "answers": {
+            "a": "By measuring the curve at different temperatures",
+            "b": "By using different gate materials",
+            "c": "By performing C-V measurements at different frequencies",
+            "d": "By varying the oxide thickness"
+        },
+        "correctAnswer": "c",
+        "difficulty": "advanced"
     },
     {
-      "question": "10. In the Gummel plot, the linear region where the base current (I_B) is proportional to base-emitter voltage (V_BE) is known as the ______ region.",
-      "answers": {
-        "a": "Saturation",
-        "b": "Active",
-        "c": "Cut-off",
-        "d": "Breakdown"
-      },
-      "correctAnswer": "b",
-      "difficulty": "advanced"
+        "question": "10. Why does the inversion capacitance in a PMOS capacitor typically appear smaller than the oxide capacitance?",
+        "answers": {
+            "a": "Because of the series combination of oxide and depletion capacitance",
+            "b": "Due to the accumulation of majority carriers",
+            "c": "Because of a reduced doping concentration",
+            "d": "Due to an increased temperature"
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
     }
+
   ]
 }
