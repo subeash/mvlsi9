@@ -1,115 +1,117 @@
   {
 	  "version": 2.0,
   "questions": [
+    
     {
-      "question": "1. What does the term 'Gummel plot' specifically refer to in the context of BJT characterization?",
-      "answers": {
-        "a": "A plot of base-emitter voltage (V_BE) versus collector current (I_C)",
-        "b": "A plot of base current (I_B) versus base-emitter voltage (V_BE)",
-        "c": "A plot of collector current (I_C) versus base current (I_B)",
-        "d": "A plot of base-emitter voltage (V_BE) versus base current (I_B)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+        "question": "1. What does the C-V characterization of a PMOS capacitor measure?",
+        "answers": {
+            "a": "The current as a function of voltage",
+            "b": "The capacitance as a function of voltage",
+            "c": "The resistance as a function of current",
+            "d": "The power as a function of voltage"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "2. In a Gummel plot, what does the slope of the base current (I_B) versus base-emitter voltage (V_BE) plot represent?",
-      "answers": {
-        "a": "Saturation current (I_S)",
-        "b": "Current gain (\u03b2)",
-        "c": "Emitter efficiency",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+        "question": "2. In which region does the capacitance approach the oxide capacitance (C_ox) in a PMOS capacitor?",
+        "answers": {
+            "a": "Accumulation",
+            "b": "Depletion",
+            "c": "Inversion",
+            "d": "Saturation"
+        },
+        "correctAnswer": "a",
+        "difficulty": "intermediate"
     },
     {
-      "question": "3. The Gummel plot is commonly used to determine which of the following parameters of a BJT?",
-      "answers": {
-        "a": "Collector-emitter voltage (V_CE)",
-        "b": "Base-emitter voltage (V_BE)",
-        "c": "Saturation current (I_S)",
-        "d": "Thermal resistance (R_th)"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+        "question": "3. What happens to the capacitance in the depletion region of a PMOS capacitor?",
+        "answers": {
+            "a": "It increases linearly",
+            "b": "It decreases due to the formation of a depletion layer",
+            "c": "It remains constant",
+            "d": "It oscillates with the applied voltage"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "4. What is the primary purpose of characterizing a BJT using the Gummel plot method?",
-      "answers": {
-        "a": "To analyze power dissipation",
-        "b": "To optimize frequency response",
-        "c": "To extract key parameters like current gain and saturation current",
-        "d": "To measure voltage drop across the collector-emitter junction"
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+        "question": "4. What does the threshold voltage (V_T) indicate in the C-V characterization of a PMOS capacitor?",
+        "answers": {
+            "a": "The voltage at which the capacitor begins to conduct current",
+            "b": "The voltage at which significant inversion occurs",
+            "c": "The voltage at which the oxide breaks down",
+            "d": "The voltage at which accumulation starts"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "5. What does the ideality factor in a BJT refer to?",
-      "answers": {
-        "a": "A measure of how closely the BJT follows the ideal exponential relationship",
-        "b": "A measure of collector current efficiency",
-        "c": "A measure of base current leakage",
-        "d": "A measure of temperature dependence"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+        "question": "5. How does the doping concentration affect the C-V curve of a PMOS capacitor?",
+        "answers": {
+            "a": "It shifts the flat-band voltage",
+            "b": "It has no effect",
+            "c": "It only affects the oxide capacitance",
+            "d": "It changes the metal work function"
+        },
+        "correctAnswer": "a",
+        "difficulty": "advanced"
     },
     {
-      "question": "6. How does the Gummel plot help in analyzing BJT operation in different regions?",
-      "answers": {
-        "a": "By identifying breakdown voltage",
-        "b": "By showing linear and saturation regions clearly",
-        "c": "By measuring thermal resistance",
-        "d": "By calculating power gain"
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+        "question": "6. What parameter can be extracted from the slope of the C-V curve in the depletion region?",
+        "answers": {
+            "a": "Threshold voltage",
+            "b": "Oxide thickness",
+            "c": "Doping concentration",
+            "d": "Electron mobility"
+        },
+        "correctAnswer": "c",
+        "difficulty": "advanced"
     },
     {
-      "question": "7. What does the slope of the collector current (I_C) versus base-emitter voltage (V_BE) plot determine?",
-      "answers": {
-        "a": "Emitter efficiency",
-        "b": "Saturation current (I_S)",
-        "c": "Current gain (\u03b2)",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "advanced"
+        "question": "7. Which of the following conditions corresponds to the inversion region of a PMOS capacitor?",
+        "answers": {
+            "a": "High negative gate voltage",
+            "b": "High positive gate voltage",
+            "c": "Zero gate voltage",
+            "d": "Any applied voltage"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     },
     {
-      "question": "8. In a Gummel plot, what does the term 'early effect' refer to?",
-      "answers": {
-        "a": "Voltage dependence of collector current",
-        "b": "Temperature dependence of base current",
-        "c": "Voltage dependence of base current",
-        "d": "Temperature dependence of collector current"
-      },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+        "question": "8. What is the significance of the flat-band voltage (V_fb) in C-V characterization?",
+        "answers": {
+            "a": "It indicates the onset of inversion",
+            "b": "It corresponds to the energy band alignment between metal and semiconductor",
+            "c": "It represents the voltage at which the oxide capacitance reaches its maximum",
+            "d": "It determines the breakdown voltage of the oxide"
+        },
+        "correctAnswer": "b",
+        "difficulty": "advanced"
     },
     {
-      "question": "9. How can the Gummel plot aid in optimizing BJT circuit design?",
-      "answers": {
-        "a": "By minimizing thermal resistance",
-        "b": "By maximizing current gain",
-        "c": "By ensuring proper biasing and performance",
-        "d": "By increasing breakdown voltage"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+        "question": "9. How is the oxide capacitance (C_ox) related to the oxide thickness (t_ox)?",
+        "answers": {
+            "a": "Directly proportional to t_ox",
+            "b": "Inversely proportional to t_ox",
+            "c": "Independent of t_ox",
+            "d": "Exponential function of t_ox"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
     {
-      "question": "10. What region of operation is characterized by a Gummel plot where collector current (I_C) remains relatively constant with changes in base-emitter voltage (V_BE)?",
-      "answers": {
-        "a": "Cut-off",
-        "b": "Active",
-        "c": "Saturation",
-        "d": "Breakdown"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+        "question": "10. In a PMOS capacitor, what type of carriers accumulate at the semiconductor-oxide interface under a high negative gate voltage?",
+        "answers": {
+            "a": "Electrons",
+            "b": "Holes",
+            "c": "Ions",
+            "d": "Photons"
+        },
+        "correctAnswer": "b",
+        "difficulty": "intermediate"
     }
+
   ]
 }
